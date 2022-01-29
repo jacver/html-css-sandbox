@@ -1,0 +1,28 @@
+body {
+  background: palegoldenrod;
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+}
+
+p {
+  color: purple;
+}
+
+img {
+  max-width: 30%;
+}
+
+button {
+  background-color: red;
+}
+
+.btn {
+  border: 5px green dotted;
+}
+
+#bigboy {
+  height: 75px;
+}
