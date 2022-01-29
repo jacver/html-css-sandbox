@@ -20,11 +20,20 @@ img {
 div {
   background-color: steelblue;
   /* background: can list multiple properties at once whereas background-color specifies only color property */
+  padding-bottom: 15px;
+}
+
+#content {
+  margin: 50px;
+  padding: 25px;
+  font-size: 30px;
+  border-radius: 200px;
+  border: tan 5px solid;
 }
 
 ul,
 li {
-  text-align: left;
+  justify-content: center;
 }
 
 button {
