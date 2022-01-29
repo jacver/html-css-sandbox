@@ -1,5 +1,5 @@
 body {
-  background: palegoldenrod;
+  background: slategray;
   text-align: center;
 }
 
@@ -13,6 +13,17 @@ p {
 
 img {
   max-width: 30%;
+  float: right;
+}
+
+div {
+  background-color: steelblue;
+  /* background: can list multiple properties at once whereas background-color specifies only color property */
+}
+
+ul,
+li {
+  text-align: left;
 }
 
 button {
