@@ -56,9 +56,17 @@ button {
   border: 1px black solid;
 }
 
+.outer-nested-container {
+  display: flex;
+  border: yellow 1px solid;
+  width: 20%;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
 .nested-container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
   border: 1px orangered solid;
   width: 20%;
 }
