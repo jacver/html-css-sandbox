@@ -53,6 +53,14 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  border: 1px black solid;
+}
+
+.nested-container {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px orangered solid;
+  width: 20%;
 }
 
 .flex-item {
