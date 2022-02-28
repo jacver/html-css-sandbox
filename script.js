@@ -1,5 +1,7 @@
 const list = document.querySelector('.list');
-const listItems = document.querySelector('li');
+const listItems = document.querySelectorAll('li');
+const listItemsArr = Array.from(listItems);
+console.log(listItemsArr);
 
 function addListItem(item) {
   let el = document.createElement('li');
@@ -11,6 +13,6 @@ function addListItem(item) {
 addListItem('item 1');
 addListItem('item 2');
 
-listItems.style.listStyleType = 'none';
+// listItems.style.listStyleType = 'none';
 
-listItems.style.display = 'inline-block';
+// listItemsArr.style.display = 'inline-block';
